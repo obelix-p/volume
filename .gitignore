@@ -1,0 +1,32 @@
+# Build files
+build/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
+
+# Executables
+market_data_reader
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+market_data/
+*.csv
+*.json
+*.txt
+
+# Temporary files
+*.tmp
+*.log
+
+# Configuration with secrets
+config.local.json

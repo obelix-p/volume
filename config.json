@@ -1,0 +1,9 @@
+# Market Data Reader Configuration
+# Format: key=value
+
+api_key=YOUR_API_KEY_HERE
+base_url=https://api.example.com
+output_dir=./market_data
+fetch_interval=60
+storage_format=csv
+symbols=AAPL, GOOGL, MSFT, AMZN, TSLA
